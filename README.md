@@ -10,4 +10,4 @@ CoinСheck CC - это мини-приложение для учета фина�
 Дополнительная информация:
 Это приложение было создано в рамках учебного проекта и может быть расширено с добавлением новых функций и улучшений.
 
-CC is Open Source. You can find the code on the [GitHub repo](https://github.com/AndrewwKovv).
+CC is Open Source. You can find the code on the [GitHub repo](https://github.com/AndrewwKovv/CC).

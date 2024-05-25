@@ -1,0 +1,14 @@
+{
+  "expenseCategories": [
+    { "label": "Продукты", "color": "#4287f5", "iconName": "shoppingcart" },
+    { "label": "Кафе", "color": "#38a82c", "iconName": "rest" },
+    { "label": "Развлечения", "color": "#db3737", "iconName": "smileo" },
+    { "label": "Другое", "color": "#e330c8", "iconName": "ellipsis1" }
+  ],
+  "incomeCategories": [
+    { "label": "Зарплата", "color": "#4287f5", "iconName": "wallet" },
+    { "label": "Инвестиции", "color": "#38a82c", "iconName": "linechart" },
+    { "label": "Темки", "color": "#db3737", "iconName": "tago" },
+    { "label": "Другое", "color": "#e330c8", "iconName": "ellipsis1" }
+  ]
+}
