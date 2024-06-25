@@ -84,16 +84,6 @@ const App = () => {
     setBalance(totalIncome - totalExpense);
   };
 
-  // Функция для обработки изменения валюты
-  const handleCurrencyChange = async (selectedCurrency) => {
-    setCurrency(selectedCurrency);
-    try {
-      await AsyncStorage.setItem('currency', selectedCurrency);
-    } catch (error) {
-      console.error('Error saving currency to AsyncStorage:', error);
-    }
-  };
-
   // Функция для обновления баланса при нажатии на текст баланса
   const handleBalancePress = () => {
     const fetchOperations = async () => {
@@ -109,6 +99,15 @@ const App = () => {
     };
 
     fetchOperations();
+  };
+    // Функция для обработки изменения валюты
+  const handleCurrencyChange = async (selectedCurrency) => {
+    setCurrency(selectedCurrency);
+    try {
+      await AsyncStorage.setItem('currency', selectedCurrency);
+    } catch (error) {
+      console.error('Error saving currency to AsyncStorage:', error);
+    }
   };
 
   // Отображение экрана загрузки, пока состояние loading равно true
